@@ -1,0 +1,106 @@
+h1{
+    font-size: 24px;
+}
+#Id {
+    background-color: blue;
+    padding: 20px;
+}
+
+.Class {
+    color: white;
+}
+.font-style {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+.text-props {
+    text-align: center;
+    text-decoration: underline;
+    text-indent: 30px;
+    text-shadow: 2px 2px 5px gray;
+}
+.border-box {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-top-color: blue;
+    border-bottom-color: red;
+}
+.card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+.spacing {
+    margin: 20px 15px 25px 10px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.container {
+    overflow: hidden;
+    }
+    .left {
+    float: left;
+    background: lightblue;
+    }
+    .right {
+    float: right;
+    background: lightgreen;
+}
+.block { display: block; background: pink; }
+.inline { display: inline; background: yellow; }
+.inline-block { display: inline-block; background: orange; padding: 10px; }
+.relative { position: relative; left: 20px; }
+.absolute { position: absolute; top: 0; right: 0; }
+.fixed { position: fixed; bottom: 10px; right: 10px; }
+.sticky { position: sticky; top: 0; }
+a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+a:link { color: blue; }
+a:visited { color: purple; }
+a:hover { color: red; }
+a:active { color: green; }
+.list-style li:nth-child(odd) { background: lightgray; }
+.list-style li:nth-child(even) { background: lightyellow; }
+.list-style li:first-child { font-size: 20px; }
+.list-style li:last-child { border: 2px solid black; }
+.hidden { visibility: hidden; }
+.none { display: none; }
+.opacity { opacity: 0.5; }
+.btn {
+    background: linear-gradient(to right, #4CAF50, #45a049);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background: #3e8e41;
+}
+
+.btn:active {
+    transform: scale(1.05);
+}
+.final-card {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+.final-card:hover { transform: translateY(-5px); }
+.final-card img { width: 100%; border-radius: 10px 10px 0 0; }
+.final-card h3, .final-card p { padding: 10px; }
